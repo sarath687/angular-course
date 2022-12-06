@@ -18,7 +18,7 @@ One way to set styles is by using the `NgStyle` directive and assigning it an _o
 
 [source,html]
 ----
-<div [ngStyle]="{'background-color':'green'}"></<div>
+<div [ngStyle]="{'background-color':'green'}"></div>
 ----
 
 This sets the background color of the `div` to green.
@@ -27,7 +27,7 @@ This sets the background color of the `div` to green.
 
 [source,html]
 ----
-<div [ngStyle]="{'background-color':person.country === 'UK' ? 'green' : 'red' }"></<div>
+<div [ngStyle]="{'background-color':person.country === 'UK' ? 'green' : 'red' }"></div>
 ----
 
 The above code uses the ternary operator to set the background color to green if the persons country is the UK else red.
